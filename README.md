@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-addon-dispatch@esm/index.mjs';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-addon-dispatch@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-addon-dispatch@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-addon-dispatch@v0.3.1-esm/index.mjs';
 ```
 
 #### dispatch( addon, fallback )
@@ -263,7 +263,7 @@ where
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-addon-dispatch@esm/index.mjs';
+import dispatch from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-mskunary-addon-dispatch@v0.3.1-esm/index.mjs';
 
 function addon( N, dx, x, sx, dm, m, sm, dy, y, sy ) {
     console.log( x );
